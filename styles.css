@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: white;
+	text-align: center;
+	font-size: 2rem;
+	font-family: sans-serif;
+	width: 100%;
+	height: 20%;
+	padding: 1rem;
+	font-weight: bold;	
+}
+
+body {
+	background: #24202c;
+}
+
+.score-board {
+	margin: 2rem; 
+	height: 30%;
+	width: 7%;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: white;
+	padding: 2rem;
+	margin-left: 45%;
+	position: relative;
+}
+
+.user-score {
+	margin-left: 0.7rem;
+	font-size: 2rem;
+	color: white;
+	font-weight: bold;
+}
+
+.comp-score {
+	font-size: 2rem;
+	color: white;
+	font-weight: bold;
+	padding-left: 0.5rem;
+}
+
+.user-score-card {
+	position: absolute;
+	top: 0;
+	width: 2.5rem;
+	left: -1rem;
+	background: red;
+	text-align: center;
+	color: white;
+	margin-top: 2.5rem; 
+}
+
+.comp-score-card {
+	position: absolute;
+	top: 0;
+	width: 2.5rem;
+	right: -1rem;
+	background: red;
+	text-align: center;
+	color: white;
+	margin-top: 2.5rem; 
+}
+
+.win-text {
+	font-weight: bold;
+	font-size: 2rem;
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.game-images {
+	display: inline-block;
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+	padding-left: 35%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rock {
+	margin-left: 2rem;
+	height: 20%;
+	max-height: 200px;
+	max-width: 200px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border-color: #E91E63;
+	border-style: solid;
+}
+
+.paper {
+	margin-left: 2rem;
+	max-height: 200px;
+	max-width: 200px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border-color: #E91E63;
+	border-style: solid;	
+	transition: 0.3;
+}
+
+.scissor {
+	margin-left: 2rem;
+	max-height: 200px;
+	max-width: 200px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border-color: #E91E63;
+	border-style: solid;
+}
+
+.move {
+	font-size: 2rem;
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+}
+
+img:hover {
+	cursor: pointer
+}
+
+.colon {
+	color: white;
+	font-size: 20px;
+	margin-left: 0.5rem;
+}
+
+.green {
+	border: 4px solid green;
+	box-shadow: 0 0 10px green;
+}
+
+.red {
+	border: 4px solid purple;
+	box-shadow: 0 0 10px purple;
+}
+
+.draw {
+	border: 4px solid grey;
+	box-shadow: 0 0 10px grey;
+}
